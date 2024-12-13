@@ -123,6 +123,7 @@ nav a:hover {
   position: relative;
   background-image: url(../media/hero-image.jpg); 
   background-size: cover; 
+  border-radius: 8px;
   background-position: center; 
   background-repeat: no-repeat; 
   padding: 180px 40px; 

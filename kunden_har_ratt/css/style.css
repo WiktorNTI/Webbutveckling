@@ -1,4 +1,4 @@
-/* Grundläggande styling */
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #FFD700; /* Hover-färg */
+  color: #FFD700; 
 }
 
 h1, h2 {
@@ -65,7 +65,7 @@ footer {
 /* Grid-layout för konstverken */
 .artwork-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsiv grid med minmax */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 30px;
   margin-top: 40px;
 }
@@ -83,12 +83,12 @@ footer {
   transform: scale(1.05);
 }
 
-/* Justera bildens storlek och se till att den tar upp exakt halva gridden */
+
 .artwork-box img {
   width: 100%;
-  height: 50%;  /* Höjd justeras till hälften av cellens höjd */
-  object-fit: cover; /* Beskär bilden för att passa utan att förvrängas */
-  border-bottom: 3px solid #FF4081; /* Huvudfärg under bilden */
+  height: 50%;  
+  object-fit: cover; 
+  border-bottom: 3px solid #FF4081; 
 }
 
 .artwork-box p {
@@ -97,10 +97,10 @@ footer {
   color: #555;
 }
 
-/* Justera navigationsstil */
+
 h2 {
   font-size: 2rem;
-  color: #FF4081; /* Huvudfärg på sektionstitlar */
+  color: #FF4081;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -110,7 +110,7 @@ nav a:hover {
 }
 
 
-/* För att justera texten i sektionen */
+
 .section h2 {
   text-align: center;
   color: #FF4081;
